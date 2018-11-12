@@ -36,7 +36,7 @@ Route::get('password/reset','Auth\ForgotPasswordController@showLinkRequestForm')
 Route::post('password/email','Auth\ForgotPasswordController@sendResetLinkEmail')->name('password.reset');
 Route::post('password/reset','Auth\ResetPasswordController@reset');
 
-
+Route::resource('users','UsersController',['only'=>['show','update','edit']]);
 
 
 
