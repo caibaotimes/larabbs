@@ -7,7 +7,7 @@ use App\Models\User;
 use App\Http\Requests\UserRequest;
 use App\Handlers\ImageUploadHandler;
 
-use Auth;
+
 
 class UsersController extends Controller
 {
