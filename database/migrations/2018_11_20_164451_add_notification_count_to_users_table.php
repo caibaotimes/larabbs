@@ -26,7 +26,7 @@ class AddNotificationCountToUsersTable extends Migration
     public function down()
     {
         Schema::table('users', function (Blueprint $table) {
-            $table->dropColum('notification_count');
+            $table->dropColumn('notification_count');
         });
     }
 }
