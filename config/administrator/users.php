@@ -4,7 +4,7 @@ use App\Models\User;
 
 return [
     // 页面标题
-    'title'   => '用户',
+    'title'   => '用户1',
 
     // 模型单数，用作页面『新建 $single』
     'single'  => '用户',
